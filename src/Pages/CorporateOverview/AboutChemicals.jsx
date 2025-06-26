@@ -173,8 +173,9 @@ const AboutTataChemicals = () => {
                         }`}
                 >
                     <div >
+                        <h1 className='text-3xl md:text-4xl font-bold text-[#1368b4] text-center mb-12'>Our Core Verticals</h1>
                         <div className='flex md:flex-row items-stretch gap-4 flex-col w-full'>
-                            <div className='md:w-1/2 bg-[#40b2a2]/5  p-4 '>
+                            <div className='md:w-1/2 bg-[#40b2a2]/5  p-4 rounded-3xl '>
                                 <h3 className='text-[#ed1a3b] text-2xl font-bold'>Basic Chemistry Products</h3>
                                 <div className='flex my-6 flex-col gap-3'>
                                     <div className='flex flex-row gap-3 items-center'>
@@ -212,7 +213,7 @@ const AboutTataChemicals = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className='md:w-1/2 bg-[#40b2a2]/5 p-4'>
+                            <div className='md:w-1/2 bg-[#40b2a2]/5 p-4 rounded-3xl'>
                                 <h3 className='text-[#ed1a3b] text-2xl font-bold'>Specialty Products</h3>
                                 <div className='flex my-6 flex-col gap-3'>
                                     <div className='flex flex-row gap-3 items-center'>

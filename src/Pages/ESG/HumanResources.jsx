@@ -99,14 +99,14 @@ const HumanResources = () => {
                         }`}
                 >
                     <div className="bg-white/70 text-xl backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-white/20">
-                        <h3 className='font-[900] text-2xl mb-4 text-[#2368b3]'>
+                        <h3 className='font-[900] text-2xl mb-4 text-[#2368b3] text-center'>
                             Creating an Empowering Work
                             Environment
                         </h3>
-                        <p className='mb-4'>
+                        <p className='mb-4 pb-3 border-b-2 border-[#ed1a3b]'>
                             The company’s commitment to excellence is rooted in providing purpose-driven work, enabling policies, infrastructure and systems that equip every employee to unlock their potential.
                         </p>
-                        <p className='mb-4'>
+                        <p className='mb-4 pb-3 border-b-2 border-[#ed1a3b]'>
                             We continue to strengthen global
                             functional structure, aligning teams
                             globally to improve efficiency, customer
@@ -115,7 +115,7 @@ const HumanResources = () => {
                             policies and robust infrastructure, we
                             equip every employee to thrive and grow
                         </p>
-                        <p className='mb-4'>
+                        <p className='mb-4 pb-3 border-b-2 border-[#ed1a3b]'>
                             LEAD framework (Leadership, Ecosystem,
                             Awareness, Data), led by DEI Council
                             and DEI Champions, advances our
@@ -130,7 +130,7 @@ const HumanResources = () => {
                             undertaken, focus groups were hosted,
                             and DEI Month was celebrated
                         </p>
-                        <p className='mb-4'>
+                        <p className='mb-4 pb-3 border-b-2 border-[#ed1a3b] w-fit'>
                             We maintain constructive union
                             relations through regular dialogue,
                             supporting a stable work environment.
@@ -156,7 +156,7 @@ const HumanResources = () => {
                         }`}
                 >
                     <div className="bg-white/70 text-xl backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-white/20">
-                        <h3 className='font-[900] text-2xl mb-4 text-[#2368b3]'>
+                        <h3 className='font-[900] text-2xl mb-4 text-[#2368b3] text-center'>
                             Building Capabilities for Today and Tomorrow
                         </h3>
                         <p className='mb-4 bg-[#f0ecf1] p-4 border-t-4 border-[#a088ac]'>
@@ -212,7 +212,7 @@ const HumanResources = () => {
                         }`}
                 >
                     <div className="bg-white/70 text-xl backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-white/20">
-                        <h3 className='font-[900] text-2xl mb-4 text-[#2368b3]'>
+                        <h3 className='font-[900] text-2xl mb-4 text-[#2368b3] text-center'>
                             Strengthening Our Employee
                             Value Proposition
                         </h3>
@@ -252,12 +252,94 @@ const HumanResources = () => {
                             home and community amenities such as
                             schools, healthcare and recreation.
                         </p>
-                        <div className='flex md:flex-row flex-col gap-4 mb-4'>
-                            <div className='md:w-1/2'>
-                                <img src="./ESG/hr/47-Box-IMG.webp" className='' alt="" />
+                        <div className='flex flex-row gap-10'>
+                            <div className='w-3/5'>
+                                <div
+                                    id="case-study"
+                                    data-animate
+                                    className={`mb-10 transition-all duration-1000 delay-300 transform ${isVisible['case-study'] ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+                                        }`}
+                                >
+                                    <div className="bg-[#003f84] text-white rounded-br-[50px] p-4 sm:p-6 md:p-8 w-full">
+                                        {/* Header Section */}
+                                        <div className="bg-gradient-to-r from-[#1368b4] to-transparent p-4 mb-5">
+                                            <div className="bg-[#ed1a3b] text-white text-sm font-semibold inline-block px-3 py-1 rounded-br-2xl mb-2">
+                                                Case Study
+                                            </div>
+                                            <h1 className="font-semibold text-2xl sm:text-3xl">Tata Chemicals Europe :
+                                                Restructuring and Growth Plans</h1>
+                                        </div>
+
+                                        {/* Main Content Box */}
+                                        <div className="bg-white text-black rounded-br-[40px] mt-0 flex flex-col md:flex-row divide-x-[1px] divide-gray-300">
+                                            {/* Left: Paragraph */}
+                                            <div className="w-full p-6 text-[#0057a0] text-xl font-medium leading-7">
+                                                In 2024, Tata Chemicals Europe (TCE) announced a significant restructuring
+                                                to shift its focus on high-grade specialty products, investing £60 million
+                                                in a state-of-the-art sodium bicarbonate plant in Northwich. This facility
+                                                will triple the high-grade production capacity, supporting sustainability
+                                                efforts by using captured CO2
+                                                to produce Ecokarb. The new facility
+                                                aims to start full operations by early 2028.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div className='md:w-1/2'>
-                                <img src="./ESG/hr/47-Box2-IMG.webp" className='' alt="" />
+                            <div
+                                id="case-study"
+                                data-animate
+                                className={`mb-10 transition-all duration-1000 delay-300 transform ${isVisible['case-study'] ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+                                    }`}
+                            >
+                                <div className="bg-[#003f84] text-white rounded-br-[50px] p-4 sm:p-6 md:p-8 w-full">
+                                    {/* Header Section */}
+                                    <div className="bg-gradient-to-r from-[#1368b4] to-transparent p-4 mb-5">
+                                        <div className="bg-[#ed1a3b] text-white text-sm font-semibold inline-block px-3 py-1 rounded-br-2xl mb-2">
+                                            Case Study
+                                        </div>
+                                        <h1 className="font-semibold text-2xl sm:text-3xl">Advancing our DEI Journey</h1>
+                                    </div>
+
+                                    {/* Main Content Box */}
+                                    <div className="bg-white text-black rounded-br-[40px] mt-0 flex flex-col md:flex-row divide-x-[1px] divide-gray-300">
+                                        {/* Left: Paragraph */}
+                                        <div className="w-full p-6 text-[#0057a0] text-xl font-medium leading-7">
+                                            Last year, we took significant steps to strengthen diversity, equity
+                                            and inclusion (DEI):
+                                            <ul className="space-y-4 text-[#4d4d4f] text-xl mt-3">
+                                                <li className="flex items-start">
+                                                    <span className="w-2 h-2 bg-[#00b398] rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                                                    Introducing unconscious bias training across
+                                                    all functions.
+                                                </li>
+                                                <li className="flex items-start">
+                                                    <span className="w-2 h-2 bg-[#00b398] rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                                                    Conducting AON Voice of Women Survey and
+                                                    Focus Group Discussions led by CHRO.
+                                                </li>
+                                                <li className="flex items-start">
+                                                    <span className="w-2 h-2 bg-[#00b398] rounded-full mt-2 mr-2 flex-shrink-0"></span>
+                                                    Celebrating the Annual DEI Month with
+                                                    several initiatives to create awareness on
+                                                    inclusion and culminating in a vibrant
+                                                    International Women’s Day event.
+                                                </li>
+                                            </ul>
+                                            <div className='mt-5 w-full'>
+                                                <div className='border-b border-[#4d4d4f] pb-3'>
+                                                    <h1 className='text-4xl font-bold text-[#442c87]'>50%</h1>
+                                                </div>
+                                            </div>
+                                            <div className='mt-3 pb-4'>
+                                                <p>Women representation
+                                                    among Graduate
+                                                    Engineers hired from
+                                                    Campus</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div>

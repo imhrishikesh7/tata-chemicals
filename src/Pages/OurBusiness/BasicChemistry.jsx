@@ -254,7 +254,7 @@ const BasicChemistry = () => {
                     data-animate
                     className={`transition-all duration-1000 delay-300 transform ${isVisible['case-study'] ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
                         }`}
-                >
+                    >
                     <div className="bg-[#003f84] text-white rounded-br-[50px] p-4 sm:p-6 md:p-8 w-full">
                         {/* Header Section */}
                         <div className="bg-gradient-to-r from-[#1368b4] to-transparent p-4 mb-5">

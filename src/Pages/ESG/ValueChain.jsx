@@ -78,7 +78,7 @@ const ValueChain = () => {
                                 <img src="./ESG/icon_2.webp" alt="" className='w-16 h-16' />
                             </div>
                             <div className='w-full h-[1px] my-4 bg-[#2368b3] relative'>
-                                <div className='absolute bg-red-600 h-[3px] w-[80px]'></div>
+                                <div className=' bg-red-600 h-[3px] w-[80px] rounded-full translate-y-[-1px]'></div>
                             </div>
                             <h3 className='font-[900] text-2xl mb-2 text-[#2368b3]'>
                                 Supplier Engagement and
@@ -109,7 +109,7 @@ const ValueChain = () => {
                                 <img src="./ESG/icon_1.webp" alt="" className='w-16 h-16' />
                             </div>
                             <div className='w-full h-[1px] my-4 bg-[#2368b3] relative'>
-                                <div className='absolute bg-red-600 h-[3px] w-[80px]'></div>
+                                <div className=' bg-red-600 h-[3px] w-[80px] rounded-full translate-y-[-1px]'></div>
                             </div>
                             <h3 className='font-[900] text-2xl mb-2 text-[#2368b3]'>
                                 Community and Employment
@@ -134,7 +134,7 @@ const ValueChain = () => {
                                 <img src="./ESG/icon_3.webp" alt="" className='w-16 h-16' />
                             </div>
                             <div className='w-full h-[1px] my-4 bg-[#2368b3] relative'>
-                                <div className='absolute bg-red-600 h-[3px] w-[80px]'></div>
+                                <div className='bg-red-600 h-[3px] w-[80px] rounded-full translate-y-[-1px]'></div>
                             </div>
                             <h3 className='font-[900] text-2xl mb-2 text-[#2368b3]'>
                                 Sustainability and Ethical

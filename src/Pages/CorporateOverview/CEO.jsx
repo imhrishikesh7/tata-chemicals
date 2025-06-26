@@ -170,14 +170,14 @@ const CEO = () => {
                                     <div className="group">
                                         <button className="  px-8 py-4 font-semibold  transition-all duration-300 flex items-center space-x-3 group">
                                             
-                                            <svg 
+                                            {/* <svg 
                                                 className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" 
                                                 fill="none" 
                                                 stroke="currentColor" 
                                                 viewBox="0 0 24 24"
                                             >
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                            </svg>
+                                            </svg> */}
                                         </button>
                                     </div>
                                 </div>

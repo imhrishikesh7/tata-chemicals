@@ -219,6 +219,8 @@ const RiskManagemant = () => {
                                 </div>
                             </div>
                             <MitigationStrategies/>
+                            <img src="ValueCreationApproach\RiskManagement\India13.png" alt=""
+                            className='mt-5' />
                         </div>
                     </div>
                 </div>

@@ -76,10 +76,10 @@ const Community = () => {
                 >
                     <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-8 md:p-12 shadow-xl border border-white/20">
                         <div className='mb-8'>
-                            <img src="./ESG/52-IMG-3.webp" alt="" />
+                            <img src="ESG\Tata-Chemicals-50.jpg" alt="" />
                         </div>
                         <div className=''>
-                            <img src="./ESG/53-IMG-1.webp" alt="" />
+                            <img src="ESG\Tata-Chemicals-51.jpg" alt="" />
                         </div>
                     </div>
                 </div>

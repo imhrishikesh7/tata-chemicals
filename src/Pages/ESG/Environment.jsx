@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import HeaderWRedBottom from '../../Components/HeaderWRedBottom';
 
 const Environment = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -299,20 +300,127 @@ const Environment = () => {
             <h1 className='text-3xl text-[#1368b4] font-bold text-center'>Progress in Sustainability Performance </h1>
             <img src="ESG/Environment/Table.png" alt="" className='mt-10' />
             <img src="ESG/Environment/India16.png" alt="" className='mt-10' />
-            <div className='flex'>
-              <div className='w-2/3'>
-                <h1 className='text-3xl text-[#ed1a3b] font-bold text-left mt-10'>Recognising the urgent need for decarbonisation to address climate change, wide array of initiatives have been implemented.</h1>
+            <div className='flex flex-col md:flex-row'>
+              <div className='md:w-2/3'>
+                <h1 className='text-2xl md:text-3xl text-[#ed1a3b] font-bold text-left mt-5 md:mt-10'>Recognising the urgent need for decarbonisation to address climate change, wide array of initiatives have been implemented.</h1>
                 <img src="ESG/Environment/44-Page-IMG.png" alt="" className='mt-10' />
               </div>
-              <div className='w-1/3'>
-                <img src="ESG/Environment/India18.png" alt="" className='mt-25' />
+              <div className='md:w-1/3'>
+                <img src="ESG/Environment/India18.png" alt="" className='md:mt-25 mt-5' />
               </div>
             </div>
-            <div className='my-6'>
-              <img src="./envc1.webp" alt="" />
+            <div className='mt-10'>
+              <img src="ESG\Environment\Digital.png" alt="" />
+              <p className='text-lg mt-5'>Tata Chemicals is advancing the Tata Group’s ‘Driving Net Zero’ ambition through multiple initiatives</p>
             </div>
-            <div className='my-6'>
-              <img src="./envc2.webp" className='w-full' alt="" />
+            <div>
+              <img src="ESG\Environment\Table3.png" alt="" className='mt-5' />
+            </div>
+            <div>
+              <h1 className='text-3xl text-[#1368b4] font-bold text-center mt-10'>Pioneering Circular Economy</h1>
+              <p className='text-[#434345] text-xl mt-5'>Advancing the Group’s circular economy goals through targeted actions across waste, water
+                and resource management</p>
+              <div className='flex md:flex-row flex-col gap-5'>
+                <div className='md:w-2/3 w-full'>
+                  <img src="ESG\Environment\Table2.png" alt="" />
+                </div>
+                <div className='md:w-1/3 w-full mt-6'>
+                  <div className="bg-blue-900 text-white p-8 md:p-12 h-full">
+                    <h1 className='text-4xl mb-5'> A step towards Zero<br />
+                      Liquid Discharge (ZLD)</h1>
+                    <HeaderWRedBottom />
+                    <div className="mb-8 mt-10">
+                      <img
+                        src="ESG\Environment\India20.png"
+                        alt="Industrial facility at Dahej SEZ"
+                        className="w-full rounded-lg shadow-lg"
+                      />
+                    </div>
+                    <p className="text-xl">
+                      In FY 2025, Rallis operations at Dahej SEZ, continued to develop
+                      the capability for Zero Liquid discharge. The treated water is
+                      utilised across various industrial activities, such as in utilities,
+                      recycling of condensate water in the production and gardening purposes,
+                      with an average of 84% of total treated being recycled.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h1 className='text-3xl text-[#1368b4] font-bold text-center mt-10'>Biodiversity</h1>
+            <div className='flex md:flex-row flex-col'>
+              <div className='md:w-6/7'>
+                <p className='text-[#434345] text-xl mt-5'>As a part of our commitment to
+                  biodiversity, we have initiated a threeseason biodiversity impact assessment at
+                  Mithapur. This initiative aligns with Tata
+                  Chemicals’ overriding efforts to promote
+                  ecological balance and preserve the rich
+                  natural heritage of the region. <br />
+                  Conserving marine life: Saved
+                  979 sharks at Gujarat coast
+                </p>
+              </div>
+              <div className='md:w-1/7'>
+                <img src="ESG\Environment\45-Page-icon4.png" alt=""
+                  className='h-40 mx-auto'
+                />
+              </div>
+            </div>
+            <div className='mt-5'>
+              <div
+                id="case-study"
+                data-animate
+                className={`transition-all duration-1000 delay-300 transform ${isVisible['case-study'] ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+                  }`}
+              >
+                <div className="bg-[#003f84] text-white rounded-br-[50px] p-4 sm:p-6 md:p-8 w-full">
+                  {/* Header Section */}
+                  <div className="bg-gradient-to-r from-[#1368b4] to-transparent p-4 mb-5">
+                    <div className="bg-[#ed1a3b] text-white text-sm font-semibold inline-block px-3 py-1 rounded-br-2xl mb-2">
+                      Case Study
+                    </div>
+                    <h1 className="font-semibold text-2xl sm:text-3xl">At Tata Chemicals Europe, Conserving
+                      and Enriching Biodiversity is a Priority</h1>
+                  </div>
+
+                  {/* Main Content Box */}
+                  <div className="bg-white text-black rounded-br-[40px] mt-0 flex flex-col md:flex-row divide-x-[1px] divide-gray-300">
+                    {/* Left: Paragraph */}
+                    <div className="w-full md:w-1/2 p-6 text-[#0057a0] text-xl font-medium leading-7">
+                      The Biodiversity Restoration Project
+                      at Cledford Lagoons represents a
+                      transformation of the British Salt site. It
+                      has been used for industrial purposes
+                      for over a century. This initiative aims to
+                      convert the area into a wildlife reserve,
+                      increasing biodiversity habitats and
+                      creating publicly accessible green space.
+                    </div>
+
+                    {/* Middle: Challenges */}
+                    <div className="w-full md:w-2/4 p-6 space-y-4">
+                      <p className='text-xl'>It also supports local housing
+                        developments by creating Biodiversity
+                        Net Gain (BNG) units, helping developers
+                        meet the UK’s 10% biodiversity
+                        increase requirement.
+                        In partnership with Green Earth
+                        Development Group (GEDG), the
+                        site is being restored, using surplus
+                        soil from construction projects,
+                        avoiding landfill and protecting local
+                        water sources. Feedback from the
+                        community is implemented to foster
+                        local ownership and £1 per soil
+                        delivery is donated to a Community
+                        Fund to support local causes. The
+                        project commits to managing
+                        the site for 30 years, ensuring
+                        rare habitats thrive.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

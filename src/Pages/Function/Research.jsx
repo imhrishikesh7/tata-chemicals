@@ -445,7 +445,7 @@ const Research = () => {
 
                                 {/* Middle: Challenges */}
                                 <div className="w-full md:w-1/4 p-6 space-y-4">
-                                    <h2 className="text-[#ed1a3b] text-2xl font-bold mb-2">Benifits</h2>
+                                    <h2 className="text-[#ed1a3b] text-2xl font-bold mb-2">Benefits</h2>
                                     <ul className="space-y-4 text-[#4d4d4f] text-xl">
                                         <li className="flex items-start">
                                             <span className="w-2 h-2 bg-[#00b398] rounded-full mt-2 mr-2 flex-shrink-0"></span>
